@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive, sans-serif;
+}
+
+.body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.h2-text{
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.8);
+    height: 80px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.nav-link-hover {
+    color: yellow;
+}
+
+.content-container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-title {
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.content-subtitle {
+    font-size: 24px;
+    margin: 10px 0 30px;
+}
+
+.service-button {
+    padding: 10px 30px;
+    font-size: 16;
+    background: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.service-button-hover {
+    background: black;
+    color: white;
+}
+
+.decorations {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.decoration-image {
+    width: 220px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(500px);
+}
+
+.img-container {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-image {
+    width: 160px;
+    margin: 0 10px;
+}
+
+
+.welcome-section {
+    margin-top: 10px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.welcome-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.welcome-description {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+    color: #fffbfb;
+}
